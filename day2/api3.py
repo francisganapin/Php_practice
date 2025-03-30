@@ -12,7 +12,7 @@ CORS(app)
 if not os.path.exists('instance'):
     os.makedirs('instance')
 
-app = Flask(__name__)
+
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data2.db'
 app.config['SQLACHEMY_TRACK_MODIFICATIONS'] = False
 
