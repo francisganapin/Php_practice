@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "age": 32,
+        "email": "alice@example.com",
+        "address": {
+            "street": "123 Maple st.",
+            "city": "SpringField",
+            "state": "il",
+            "zip": "623123"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "age": 28,
+        "email": "bob@example.com",
+        "address": {
+            "street": "456 Oak Ave.",
+            "city": "Greenville",
+            "state": "TX",
+            "zip": "75001"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "age": 35,
+        "email": "charlie@example.com",
+        "address": {
+            "street": "789 Pine Rd.",
+            "city": "Mapleton",
+            "state": "CA",
+            "zip": "90012"
+        }
+    }
+]

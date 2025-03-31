@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %} Product List {% endblock %}
+
+{% block content %}
+
+<h1>Product List</h1>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Product Name</th>
+            <th>Price Php</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in products %}
+        <tr>
+            <td>{{loop.index}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td>{{item.stock}}</td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="4">No Product available.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
